@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cm.app.it.gasmyr.letsay.view.discussion.NewConversationActivity"
+    tools:showIn="@layout/activity_new_conversation">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messages_recycler"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:keyboardNavigationCluster="true"
+            android:layout_weight="6"
+            android:inputType="textMultiLine" />
+
+        <ImageButton
+            android:id="@+id/sendButon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/white"
+            android:contentDescription="send button"
+            android:onClick="sendMessage"
+            android:src="@android:drawable/ic_menu_send" />
+    </LinearLayout>
+</LinearLayout>

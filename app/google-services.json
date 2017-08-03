@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "961510339601",
+    "firebase_url": "https://letsaytchat.firebaseio.com",
+    "project_id": "letsaytchat",
+    "storage_bucket": "letsaytchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961510339601:android:f0aeecde01b48bb8",
+        "android_client_info": {
+          "package_name": "cm.app.it.gasmyr.letsay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961510339601-04qqerelqghd3u4fkfovta6i4qki5r23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxmhdZgQtX4wj58LN3Rfb7Ro8p3zdiEgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
